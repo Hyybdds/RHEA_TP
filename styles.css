@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: skyblue;
+}
+
+.border-container {
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.border-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#border1 {
+    border-color: red blue;
+    border-style: solid double;
+}
+
+#border2 {
+    border-color:  yellow orange;
+    border-style: dotted dashed;
+}
+
+#border3 {
+    border-color: green gold;
+    border-style: groove ridge;
+}
+
+#border4 {
+    border-color: purple navy blue;
+    border-style: inset outset;
+}
